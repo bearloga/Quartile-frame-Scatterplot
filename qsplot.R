@@ -23,11 +23,11 @@ qsplot <- function(x,y,...) {
 	qy <- as.numeric(quantile(y))
 	qx <- as.numeric(quantile(x))
 	p <- p + theme_bw() + scale_x_continuous(limits=range(x),
-											 breaks=qx,
-											 labels=round(qx,1)) +
-											 	scale_y_continuous(limits=range(y),
-											 					   breaks=qy,
-											 					   labels=round(qy,1))
+						 breaks=qx,
+						 labels=round(qx,1)) +
+						 scale_y_continuous(limits=range(y),
+								    breaks=qy,
+								    labels=round(qy,1))
 	# We now specify various options. Serif is the default font family but the user can specify otherwise.
 	p <- p + opts(axis.line = theme_segment(colour="transparent",size=1,linetype=1),
 				  axis.title.y = theme_text(family=ifelse(!is.null(z$font.family),z$font.family,"serif"),
