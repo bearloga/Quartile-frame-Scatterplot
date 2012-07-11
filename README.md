@@ -24,4 +24,9 @@ qsplot(x=mtcars$wt,
        font.family="Gill Sans") # alternatively: font.family="Times New Roman"
 ```
 
+## Sample Plot
+
+![Sample output for Quartile-Frame Scatterplot][2]]
+
 [1]: https://github.com/hadley/ggplot2
+[2]: https://github.com/briandk/Quartile-frame-Scatterplot/raw/master/qsplot-preview.png "Sample output for Quartile-Frame Scatterplot"
