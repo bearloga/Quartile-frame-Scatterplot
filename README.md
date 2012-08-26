@@ -3,7 +3,7 @@
 
 | Code By | Mikhail Y. Popov                                         |
 | :---    | :---                                                     |
-| email   | [michaelupopov@gmail.com](mailto:michaelupopov@gmail.com)|
+| email   | [mpopov@cmu.edu](mailto:mpopov@cmu.edu)|
 | web     | [http://www.mpopov.com](http://www.mpopov.com)           |
 
 
