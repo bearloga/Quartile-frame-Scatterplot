@@ -1,4 +1,4 @@
-## Quartile-Frame Scatterplot with [ggplot2][1]
+## Quartile-Frame Scatterplot with [ggplot2][1] (0.9.2+)
 
 
 | Code By | Mikhail Y. Popov                                         |
@@ -21,7 +21,16 @@ qsplot(x=mtcars$wt,
        main="Vehicle Weight-Gas Mileage Relationship",
        xlab="Vehicle Weight",
        ylab="Miles per Gallon",
-       font.family="Gill Sans") # alternatively: font.family="Times New Roman"
+       font.family="Gill Sans")
+```
+You may need to specifiy an explicit font mapping:
+```
+windowsFonts(TNR=windowsFont("Times New Roman"))
+qsplot(x=Orange$age,y=Orange$circumference,
+       main="Growth of Orange Trees",
+       xlab="Age (days since 12/31/1968",
+       ylab="Circumference at breast height (mm)",
+       font.family="TNR")
 ```
 
 ## Sample Plot
