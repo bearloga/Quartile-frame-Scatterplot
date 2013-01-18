@@ -16,7 +16,7 @@ The goal is to make the axes tell a better story about the data. This is done by
 Only x & y are required, everything else is optional.
 
 ```
-qsplot(x=mtcars$wt,
+qfplot(x=mtcars$wt,
        y=mtcars$mpg,
        main="Vehicle Weight-Gas Mileage Relationship",
        xlab="Vehicle Weight",
@@ -26,7 +26,7 @@ qsplot(x=mtcars$wt,
 You may need to specifiy an explicit font mapping:
 ```
 windowsFonts(TNR=windowsFont("Times New Roman"))
-qsplot(x=Orange$age,y=Orange$circumference,
+qfplot(x=Orange$age,y=Orange$circumference,
        main="Growth of Orange Trees",
        xlab="Age (days since 12/31/1968",
        ylab="Circumference at breast height (mm)",
