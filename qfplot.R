@@ -32,7 +32,7 @@ qfplot <- function(x,y,...) {
 	p <- p + theme(axis.line = element_line(colour="transparent",size=1,linetype=1),
 				  axis.title.y = element_text(family=ifelse(!is.null(z$font.family),z$font.family,"serif"),
 				  						  face = "plain", colour = "black",
-				  						  size = 14, hjust = 0.5, vjust = 0.25, angle = 90,
+				  						  size = 14, hjust = 0.5, vjust = 0.4, angle = 90,
 				  						  lineheight = 1.2),
 				  axis.title.x = element_text(family=ifelse(!is.null(z$font.family),z$font.family,"serif"),
 				  						  face = "plain", colour = "black",
