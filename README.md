@@ -11,6 +11,13 @@ Inspired by *The Visual Display of Quantitative Information* by Edward R. Tufte
 
 The goal is to make the axes tell a better story about the data. This is done by turning the axes into quartile plots (cleaner boxplots).
 
+## Install
+
+```
+# install.packages('devtools')
+devtools::source_url('https://raw.githubusercontent.com/bearloga/Quartile-frame-Scatterplot/master/qfplot.R')
+```
+
 ## Usage Example
 
 Only x & y are required, everything else is optional.
