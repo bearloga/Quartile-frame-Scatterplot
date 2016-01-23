@@ -13,8 +13,8 @@ The goal is to make the axes tell a better story about the data. This is done by
 
 ## Install
 
-```
-# install.packages('devtools')
+```R
+install.packages('devtools')
 devtools::source_url('https://raw.githubusercontent.com/bearloga/Quartile-frame-Scatterplot/master/qfplot.R')
 ```
 
@@ -22,22 +22,22 @@ devtools::source_url('https://raw.githubusercontent.com/bearloga/Quartile-frame-
 
 Only x & y are required, everything else is optional.
 
-```
-qfplot(x=mtcars$wt,
-       y=mtcars$mpg,
-       main="Vehicle Weight-Gas Mileage Relationship",
-       xlab="Vehicle Weight",
-       ylab="Miles per Gallon",
-       font.family="Gill Sans")
+```R
+qfplot(x = mtcars$wt,
+       y = mtcars$mpg,
+       main = "Vehicle Weight-Gas Mileage Relationship",
+       xlab = "Vehicle Weight",
+       ylab = "Miles per Gallon",
+       font.family = "Gill Sans")
 ```
 You may need to specifiy an explicit font mapping:
-```
-windowsFonts(TNR=windowsFont("Times New Roman"))
-qfplot(x=Orange$age,y=Orange$circumference,
-       main="Growth of Orange Trees",
-       xlab="Age (days since 12/31/1968",
-       ylab="Circumference at breast height (mm)",
-       font.family="TNR")
+```R
+windowsFonts(TNR = windowsFont("Times New Roman"))
+qfplot(x = Orange$age,y=Orange$circumference,
+       main = "Growth of Orange Trees",
+       xlab = "Age (days since 12/31/1968",
+       ylab = "Circumference at breast height (mm)",
+       font.family = "TNR")
 ```
 
 ## Sample Plot
